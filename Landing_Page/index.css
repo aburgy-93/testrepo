@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  /* background: #eee; */
+  font-family: Besley, serif;
+  /* text-align: center; */
+}
+
+img{
+  width: 600px;
+  height: 300px;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: #FF5E00;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.navbar{
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 73%;
+  padding: 15px;
+  width: 100%;
+  position: fixed;
+}
+
+.logo {
+  color: #FF5E00;
+  font-size: 24px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.container-2{
+  background-image: url(./images/PMW.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: 900;
+  width: 600px;
+  margin-right: 350px;
+}
+
+.subtext{
+  font-size: 18px;
+  padding: 0px;
+  margin-right: 80px;
+}
+
+.button1{
+  background-color: #3882F6;
+  height: 25px;
+  border-radius: 5px;
+  font-weight: 900;
+}
+
+.info-title{
+  background-color: #E5E7EB;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 300px;
+}
+
+.something{
+  padding: 25px;
+}
+
+.link-buttons{
+  background-color: #E5E7EB;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.info{
+  max-width: 200px;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.button-twitch{
+  background: url(./images/twitch-button.jpg) no-repeat;
+  border-color: #3882F6;
+  width: 100px;
+  height:100px;
+  display: flex;
+  border-radius: 12px;
+}
+
+.button-youtube{
+  background: url(./images/youtube-button.jpg) no-repeat;
+  border-color: #3882F6;
+  width: 100px;
+  height:100px;
+  display: flex;
+  border-radius: 12px;
+}
+
+.button-twitter{
+  background: url(./images/twitter-button.jpg) no-repeat;
+  border-color: #3882F6;
+  width: 100px;
+  height:100px;
+  display: flex;
+  border-radius: 12px;
+}
+
+.button-reddit{
+  background: url(./images/reddit-button.jpg) no-repeat;
+  border-color: #3882F6;
+  width: 100px;
+  height:100px;
+  display: flex;
+  border-radius: 12px;
+}
+
+.text{
+  text-align: center;
+  font-size: 10px;
+  width: 100px;
+  color: #1F2937;
+}
+
+.container-3{
+  background-color: #1F2937;
+  color: #FF5E00;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 630px;
+}
+
+.TEST_QUOTE{
+  width: 700px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.Thor-Quote{
+  text-align: right;
+  font-weight: 900;
+  text-align: right;
+}
+
+.container-4 {
+  background-color: #E5E7EB;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.box {
+  background: #3882F6;
+  width: 700px;
+  height: 80px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.call{
+  font-weight: bold;
+}
+
+.bungus{
+  font-weight: 100;
+  font-size: 15px
+}
+
+.sign-button{
+  color: white;
+  background-color: #3882F6;
+  height: 25px;
+  border-radius: 5px;
+  border-color: white;
+  font-weight: 900;
+  width: 100px;
+}
+
+.footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F2937;
+  color: #FF5E00;
+  height: 65px;
+}
